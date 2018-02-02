@@ -1,5 +1,6 @@
 #section1{
-    background-color: rgb(230, 0, 90);
+    background:url(madrid.jpg); no repeat centre fixed;
+    background-size:cover;
 }
 
 #section2{
