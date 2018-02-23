@@ -17,36 +17,8 @@ session_start();
     
     <body>
         <h1 class="heading">eBusiness</h1>
-         <div class="back">
-        <br/><br/>
-            <ul>
-              <li><a href="homepage.html">Homepage</a></li>
-              <li class="dropdown">
-                  <a href="javascript:void(0)" class="dropbtn">Interests</a>
-                  <div class="dropdown-content">
-                  <a href="travel.html">Travel</a>
-                  <a href="sport.html">Sport</a>
-                  </div>
-              </li>
-              <li class="dropdown">
-                  <a href="javascript:void(0)" class="dropbtn">CV</a>
-                  <div class="dropdown-content">
-                  <a href="cv_page1.html">Personal Details</a>
-                  <a href="cv_page2.html">Education</a>
-                  <a href="cv_page3.html">Work Experience</a>
-                  </div>
-              </li>
-                <li class="dropdown">
-                  <a href="javascript:void(0)" class="dropbtn">eBusiness</a>
-                  <div class="dropdown-content">
-                  <a href="Ebus1.php">Buisness 1</a>
-                  <a href="Ebus2.php">Buisness 2</a>
-                  <a href="https://github.com/kieranomahony98/is1113117429464"> Github </a>
 
-                  </div>
-              </li>
-            </ul>
-        </div>
+      
             <br/><br/>
         
         <h4>Please enter your payment details.</h4>
@@ -75,7 +47,7 @@ session_start();
         <?php 
         //set session
         $_SESSION["total"] = $_POST["total"]
-        
+        ?>
     </body>
     
     
