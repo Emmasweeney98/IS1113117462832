@@ -16,20 +16,8 @@
         <br/>
         
         <form method= "POST" action ="Ebus2.php">
-        
-        <label for="salesforce">
-            <input type="radio" id="salesforce" name="product" checked onclick ="disablebtnproceed()"/>
-            salesforce@ $100
-            </label>
-        
-        </br>
-        
-        <label for="aws">
-            <input type ="radio" id="aws" name="product" onclick="disablebtnproceed()"/>
-            aws @$300
-        </label>
-        
-        <br/>
+      
+    
         <br/>
         
        <form method = "POST" action = "ebus2.php">
