@@ -4,11 +4,13 @@
 }
 
 #section2{
-    background:url
+    background:url(NewYork.jpg); no repeat centre fixed;
+    background-size:cover;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+background:url(australia2.jpg); no repeat centre fixed;
+background-size:cover;
 }
 
 .section{

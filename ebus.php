@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Select Product</title>
@@ -79,13 +79,14 @@
             </label>
             <br/>
             <a href="Ebus2.php">
+                <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
+                <br/>
                 <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </a>
         </form>
         
         <br/>
         
-        <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
 </html>
