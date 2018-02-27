@@ -6,17 +6,38 @@
         <!--jquery-->
         <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
     </head>
     
     <body>
+        <ul>
+  <li><a href="homepage.html">Home</a></li>
+  
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Interests</a>
+    <div class="dropdown-content">
+      <a href="travel.html">Travel</a>
+      <a href="sports.html">Sports</a>
+      <a href="cloudservices.html">Cloud Services</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CV</a>
+    <div class="dropdown-content">
+      <a href="cv_page1.html">Personal Details</a>
+      <a href="cv_page2.html">Education</a>
+      <a href="cv_page3.html">Work Experience</a>
+      
+     
+    </div>
+  </li>
+    <li><a href="ebus.php">Ebusiness</a></li>
+</ul>
         
         <h4>Select a Product</h4>
         
         <br/>
         
-        <form method= "POST" action ="Ebus2.php">
-      
     
         <br/>
         
@@ -88,6 +109,6 @@
         
         <br/>
         
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <a role="button" href="ebus.php">Clear Choice</a>
     </body>
 </html>
