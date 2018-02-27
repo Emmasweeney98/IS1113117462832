@@ -78,9 +78,10 @@
             </div>
             </label>
             <br/>
-            <a href="Ebus2.php">
+            
                 <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
                 <br/>
+            <a href="ebus2.php">
                 <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </a>
         </form>

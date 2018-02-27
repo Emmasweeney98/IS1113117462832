@@ -1,6 +1,8 @@
 .mainheading{
     text-align: center;
 }
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,6 +53,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .button {
   display: inline-block;
   padding: 13px 22px;
@@ -75,8 +78,8 @@ li.dropdown {
 }
 
 
-.link a:link, a:visited {
-    background-color: #f44336;
+.link1 a:link, a:visited {
+    background-color: #323232;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -85,6 +88,21 @@ li.dropdown {
 }
 
 
-.link a:hover, a:active {
-    background-color: red;
+.link1 a:hover, a:active {
+    background-color: grey;
 }
+
+.link2 a:link, a:visited {
+    background-color: #323232;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.link1 a:hover, a:active {
+    background-color: grey;
+}
+
