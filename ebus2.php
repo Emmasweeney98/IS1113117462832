@@ -65,7 +65,7 @@ session_start();
             </form>
             
             <br/>
-            <button class="button validate" onClick="return validateDetails()">Validate</button>
+            <button class="button validate" onClick="validateDetails()">Validate</button>
             
             <?php
             // Set session variables
@@ -73,5 +73,5 @@ session_start();
         
             ?>
     
-    
+    </body>
 </html> 
