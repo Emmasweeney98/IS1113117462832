@@ -1,9 +1,11 @@
-.mainheading{
+.mainheading1{
     text-align: center;
+    color:black;
+}
+.mainheading2{
+text-align: center;
     color:white;
 }
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -115,4 +117,33 @@ li.dropdown {
    background:url(cvcover.jpg); no repeat centre fixed;
     background-size:cover;
 }
+.link3 a:link, a:visited {
+    background-color: #323232;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
+
+.link a:hover, a:active {
+    background-color: grey;
+}
+#cloud{
+background:url(cloudservices.png); no repeat centre fixed;
+background-size:cover;
+}
+
+.pictureright{
+    float: right
+    margin-left: 20px:
+}
+
+button {
+                background-color: white;
+                color: black;
+                border: 2px solid #555555;
+
+           
+}

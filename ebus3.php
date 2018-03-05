@@ -34,13 +34,13 @@ session_start();
 </ul>
         
         <div class="receipt">      
-            <?php
+           <p><strong>Congratulations on your purchase!!</strong><p>
+            <?php   
             // Echo session variables that were set on previous page
-            echo "Name: ". $_POST["user_name"];
-            echo " " . $_POST["last_name"] .  "<br/>"; 
-            echo "Email: " . $_POST["Email"] . "<br/>";
+            echo "Name: ". $_POST["firstname"];
+            echo " " . $_POST["lastname"] .  "<br/>"; 
+            echo "Email: " . $_POST["email"] . "<br/>";
             echo "Your total is: $" . $_SESSION["total"] . ".";
-            
             ?>
             </div>
     </body>
