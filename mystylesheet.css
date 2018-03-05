@@ -51,7 +51,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: grey}
+.dropdown-content a:hover {background-color: black}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -114,7 +114,7 @@ li.dropdown {
     background-size:cover;
 }
 #cvcover{
-   background:url(cvcover.jpg); no repeat centre fixed;
+   background:url(home.jpg); no repeat centre fixed;
     background-size:cover;
 }
 .link3 a:link, a:visited {
