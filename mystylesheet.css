@@ -77,7 +77,7 @@ li.dropdown {
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  transform: translatey(4px);
 }
 
 
@@ -136,11 +136,11 @@ background-size:cover;
 }
 
 .pictureright{
-    float: right
-    margin-left: 20px:
+    float: right;
+    margin-left:20px;
 }
 
-button {
+.button1 {
                 background-color: white;
                 color: black;
                 border: 2px solid #555555;
