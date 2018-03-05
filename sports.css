@@ -40,12 +40,12 @@ body {
 
 .sportsimg {
     background:url("gaa.jpg"); no repeat;
-    width: 100%;
+    width: 90%;
     padding: 5px;
 }
 .btownimg{
     background:url("gaa2.jpg"); 
-    width: 25%;
+    width: 20%;
 
 .card {
     background-color: white;
