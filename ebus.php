@@ -97,7 +97,7 @@
                         <input type="text" id="total" name="total" value="0.00" class="inline" readonly/>
                     </label>
                     <br/>
-                    <a href="Ebus2.php">
+                    <a href="ebus2.php">
                         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
                     </a>
                 </form>
@@ -105,6 +105,6 @@
                 <br/>
                 
                 <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
-                <a role="button" href="Ebus1.php">Clear Choice</a>
+                <a role="button" href="ebus.php">Clear Choice</a>
     </body>
 </html>

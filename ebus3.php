@@ -5,11 +5,8 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
-        <link rel="stylesheet" href="mystylesheet" type="text/css"/>
-    </head>
-    <body>
-       <h3 style=" text-align:center;">RECEIPT</h3>
-       <ul>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+               <ul>
   <li><a href="homepage.html">Home</a></li>
   
     <li class="dropdown">
@@ -26,13 +23,16 @@ session_start();
       <a href="cv_page1.html">Personal Details</a>
       <a href="cv_page2.html">Education</a>
       <a href="cv_page3.html">Work Experience</a>
-      
      
     </div>
   </li>
     <li><a href="ebus.php">Ebusiness</a></li>
 </ul>
-        
+
+    </head>
+    <body>
+       <h3 style=" text-align:center;">RECEIPT</h3>
+
         <div class="receipt">      
            <p><strong>Congratulations on your purchase!!</strong><p>
             <?php   

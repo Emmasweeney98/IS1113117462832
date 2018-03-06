@@ -13,7 +13,7 @@ session_start();
         <!--jQuery-->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+        <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     
     <body>
@@ -46,7 +46,7 @@ session_start();
               <h4>Please enter your payment details</h4>
         
         
-              <form action="Ebus3.php" method="POST">
+              <form action="ebus3.php" method="POST">
                     <label for="Name">Full Name: </label><br/>
                     <input type="text" name="firstname" id="user_name" maxlength="20" placeholder="First.." class="name">
                     <input type="text" name="lastname"id="last_name" maxlength=20 placeholder="Last.." class="name">
@@ -58,7 +58,7 @@ session_start();
                     <label for="user_pin" placeholder="Your PIN..">PIN:</label>
                     <br/>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" placeholder="Your Password..">
-                <a href="Ebus3.php">
+                <a href="ebus3.php">
                     <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
                 </a>
               

@@ -39,7 +39,8 @@ function validateDetails(){
         
     }
     else {
-        enablebtnPurchase()}
+        enablebtnPurchase();
+}
 }
 
 function enablebtnPurchase(){
