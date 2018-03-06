@@ -60,3 +60,17 @@ background-size:cover;
     
 }
 
+#section4{
+background:url(cloudservices.png); no repeat centre fixed
+background-size:cover;
+}
+
+.cloud{
+     position: absolute;
+    right: 50px;
+    bottom: 90px;
+}
+.cloudtext{
+    font-size:25px;
+           font-family:helvetica;
+}

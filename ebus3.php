@@ -34,7 +34,7 @@ session_start();
        <h3 style=" text-align:center;">RECEIPT</h3>
 
         <div class="receipt">      
-           <p><strong>Congratulations on your purchase!!</strong><p>
+           <p><strong>Tech Service.ie</strong><p>
             <?php   
             // Echo session variables that were set on previous page
             echo "Name: ". $_POST["firstname"];
@@ -43,6 +43,14 @@ session_start();
             echo "Your total is: $" . $_SESSION["total"] . ".";
             ?>
             </div>
+            
+              <style>
+         p {
+           font-size:25px;
+           font-family:helvetica;
+         }
+       </style>
+     
     </body>
     </html>
     

@@ -101,7 +101,13 @@
                         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
                     </a>
                 </form>
-                
+                   
+              <style>
+         p {
+           font-size:25px;
+           font-family:helvetica;
+         }
+       </style>
                 <br/>
                 
                 <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>

@@ -63,7 +63,13 @@ session_start();
                 </a>
               
             </form>
-            
+               
+              <style>
+         p {
+           font-size:25px;
+           font-family:helvetica;
+         }
+       </style>
             <br/>
             <button class="button validate" onClick="validateDetails()">Validate</button>
             
