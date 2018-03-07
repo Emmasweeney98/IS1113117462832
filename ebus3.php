@@ -26,7 +26,7 @@ session_start();
      
     </div>
   </li>
-    <li><a href="ebus.php">Ebusiness</a></li>
+    <li><a href="Ebusiness.html">Ebusiness</a></li>
 </ul>
 
     </head>
@@ -34,7 +34,7 @@ session_start();
        <h3 style=" text-align:center;">RECEIPT</h3>
 
         <div class="receipt">      
-           <p><strong>Tech Service.ie</strong><p>
+           <p><strong>ES Services.ie</strong><p>
             <?php   
             // Echo session variables that were set on previous page
             echo "Name: ". $_POST["firstname"];

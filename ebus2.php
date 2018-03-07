@@ -39,10 +39,15 @@ session_start();
      
     </div>
   </li>
-    <li><a href="ebus.php">Ebusiness</a></li>
+    <li><a href="Ebusiness.html">Ebusiness</a></li>
 </ul>
         
-
+      <style>
+         p {
+           font-size:25px;
+           font-family:helvetica;
+         }
+       </style>
               <h4>Please enter your payment details</h4>
         
         
@@ -63,12 +68,7 @@ session_start();
                 </a>
               
             </form>
-               
-              <style>
-         p {
-           font-size:25px;
-           font-family:helvetica;
-         }
+           
        </style>
             <br/>
             <button class="button validate" onClick="validateDetails()">Validate</button>

@@ -31,9 +31,14 @@
      
     </div>
   </li>
-    <li><a href="ebus.php">Ebusiness</a></li>
+    <li><a href="Ebusiness.html">Ebusiness</a></li>
 </ul>
-        
+              <style>
+         p {
+           font-size:25px;
+           font-family:helvetica;
+         }
+       </style>
         <h4>Select a Product</h4>
         
         <br/>
@@ -101,16 +106,11 @@
                         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
                     </a>
                 </form>
-                   
-              <style>
-         p {
-           font-size:25px;
-           font-family:helvetica;
-         }
-       </style>
+         
                 <br/>
                 
                 <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
-                <a role="button" href="ebus.php">Clear Choice</a>
+                <a role="button" class="link4" href="ebus.php" >Clear Choice >
+                </a>
     </body>
 </html>
